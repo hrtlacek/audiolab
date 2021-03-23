@@ -1,0 +1,1 @@
+docker build -t audiolab:1.0 .

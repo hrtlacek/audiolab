@@ -1,0 +1,24 @@
+{"shortcuts": [
+  {
+            "command": "runmenu:restart-and-run-all",
+            "keys": [
+                "F9"
+            ],
+            "selector": "[data-jp-code-runner]"
+  },  
+  {
+            "command": "notebook:run-all-above",
+            "keys": [
+                "Ctrl F8"
+            ],
+            "selector": "[data-jp-code-runner]"
+  },
+  {
+            "command": "notebook:run-all-below",
+            "keys": [
+                "Ctrl F10"
+            ],
+            "selector": "[data-jp-code-runner]"
+  }
+]   
+}
