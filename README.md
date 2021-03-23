@@ -28,7 +28,7 @@ TODO
 - run `sh startup.sh`
 something similar to what is shown in the image below should appear
 
-![alt text][help.png]
+![alt text](help.png)
 
 follow the instructions that are printed out (`copy and paste this URL:
         http://127.0.0.1:8888/?token=c4b315587105058f9517c9b7fa8824377ccddf6db2790a32`) 
