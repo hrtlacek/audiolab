@@ -21,7 +21,7 @@ RUN /opt/conda/bin/conda install cffi numpy scipy matplotlib pandas -y --quiet
 
 
 RUN \
-  apt-get install -y build-essential vim sox llvm libncurses5-dev libncurses5 libmicrohttpd-dev git cmake pkg-config && \
+  apt-get install -y build-essential vim curl sox llvm libncurses5-dev libncurses5 libmicrohttpd-dev git cmake pkg-config && \
   rm -rf /var/lib/apt/lists/*
 
 WORKDIR /root/audiolab/faust
