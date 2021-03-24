@@ -1,0 +1,3 @@
+[submodule "notebooks/FAUSTplusPython/faustWidgets"]
+	path = notebooks/FAUSTplusPython/faustWidgets
+	url = https://github.com/hrtlacek/faustWidgets.git

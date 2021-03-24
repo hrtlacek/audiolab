@@ -50,7 +50,7 @@ WORKDIR /root/audiolab/faust_python
 
 RUN python setup.py develop
 
-WORKDIR /root/audiolab
+WORKDIR /root/audiolab/
 
 RUN git clone https://github.com/hrtlacek/faustWidgets.git
 ENV PYTHONPATH "${PYTHONPATH}:/root/audiolab/faustWidgets"

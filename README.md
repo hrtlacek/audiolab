@@ -9,7 +9,9 @@ A docker based DSP learning/Experimentation environment inculdig:
 - [faustWidgets](https://github.com/hrtlacek/faustWidgets) (to interactively control FAUST code )
 - librosa (for MIR and feature extraction)
 - scipy, pandas, numpy for general data science
-- sox & ffmpeg
+- sox (encoding, batch processing etc)
+- ffmpeg (encoding batch processing etc)
+- latex (for exporting jupyter notebooks)
 
 ### Why docker?
 Docker is something like a virtual machine ([well it's not](https://devopscon.io/blog/docker/docker-vs-virtual-machine-where-are-the-differences/)). What we get is a linux machine that has all tools already installed that we need to explore DSP development with python and FAUST. This has many advantages in a teaching context:
@@ -19,9 +21,10 @@ Docker is something like a virtual machine ([well it's not](https://devopscon.io
 - if something breaks one can just reinstall the docker image.
 - all students have the same tools at their hands
 - some Linux experience for everyone
-  
+
 
 ## Install
+The installation requires about 4 Gb disk space.
 
 The installation requires [docker desktop](https://www.docker.com/get-started). So first install that.
 
