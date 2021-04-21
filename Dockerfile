@@ -17,7 +17,7 @@ RUN apt-get update
 RUN /opt/conda/bin/conda install -c conda-forge nodejs -y --quiet
 RUN /opt/conda/bin/conda install -c conda-forge ipywidgets -y --quiet
 RUN /opt/conda/bin/conda install cffi numpy scipy matplotlib pandas -y --quiet
-
+RUN /opt/conda/bin/conda install seaborn -y --quiet
 
 
 RUN \

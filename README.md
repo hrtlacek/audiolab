@@ -11,7 +11,8 @@ A docker based DSP learning/Experimentation environment inculdig:
 - scipy, pandas, numpy for general data science
 - sox (encoding, batch processing etc)
 - ffmpeg (encoding batch processing etc)
-- latex (for exporting jupyter notebooks)
+- seaborn (more beautiful plots)
+- latex ****TODO* (for exporting jupyter notebooks)
 
 ### Why docker?
 Docker is something like a virtual machine ([well it's not](https://devopscon.io/blog/docker/docker-vs-virtual-machine-where-are-the-differences/)). What we get is a linux machine that has all tools already installed that we need to explore DSP development with python and FAUST. This has many advantages in a teaching context:
