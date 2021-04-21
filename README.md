@@ -29,14 +29,15 @@ The installation requires about 4 Gb disk space.
 The installation requires [docker desktop](https://www.docker.com/get-started). So first install that.
 
 ### Mac/Linux
-- download or clone the repository
+After installing [docker desktop](https://www.docker.com/get-started):
+- download or clone the repository 
 - open a terminal
 - change to the directory that you downloaded (`cd ~/Downloads/audiolab` for example) 
 - run `sh build.sh`
 
 ### Windows
-
-TODO
+Installation of docker itself und windows can pose some problems, look [here for help](https://docs.docker.com/docker-for-windows/install/).
+After installing [docker desktop](https://www.docker.com/get-started):
 
 ## Test if everything is working
 
@@ -53,3 +54,7 @@ follow the instructions that are printed out (`copy and paste this URL:
         http://127.0.0.1:8888/?token=c4b315587105058f9517c9b7fa8824377ccddf6db2790a32`) 
 your token will be different. 
 
+### FaustWidgets Examples
+FaustWidgets should be up and running already. to get the example notebook in the notebooks folder, git submoules need to be updated in the repo folder issue:
+`git submodule init && git submodule update`. See [here](https://www.atlassian.com/git/tutorials/git-submodule) for explanations.
+ 
