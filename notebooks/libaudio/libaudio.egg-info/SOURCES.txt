@@ -1,0 +1,9 @@
+README.md
+setup.py
+libaudio/__init__.py
+libaudio/conversion.py
+libaudio/spectral.py
+libaudio.egg-info/PKG-INFO
+libaudio.egg-info/SOURCES.txt
+libaudio.egg-info/dependency_links.txt
+libaudio.egg-info/top_level.txt
