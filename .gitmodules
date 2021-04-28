@@ -1,3 +1,6 @@
 [submodule "notebooks/FAUSTplusPython/faustWidgets"]
 	path = notebooks/FAUSTplusPython/faustWidgets
 	url = https://github.com/hrtlacek/faustWidgets.git
+[submodule "notebooks/SNR"]
+	path = notebooks/SNR
+	url = git@github.com:hrtlacek/SNR.git
