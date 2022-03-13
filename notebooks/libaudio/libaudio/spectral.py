@@ -20,7 +20,7 @@ def freqToBin(fAxis, Freq):
 
 
 def bandpower(ps, mode='psd'):
-    """Bandpower claculation, like in matlab, see https://de.mathworks.com/help/signal/ref/bandpower.html
+    """Bandpower claculation, simplified, but like in matlab, see https://de.mathworks.com/help/signal/ref/bandpower.html
     
     Parameters
     ----------

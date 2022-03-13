@@ -4,3 +4,6 @@
 [submodule "notebooks/SNR"]
 	path = notebooks/SNR
 	url = git@github.com:hrtlacek/SNR.git
+[submodule "notebooks/pyvi"]
+	path = notebooks/pyvi
+	url = git@github.com:d-bouvier/pyvi.git
